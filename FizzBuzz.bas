@@ -17,3 +17,17 @@
 140 poke 198, 0 :wait 198, 1 
 150 print chr$(147) "thanks"
 
+        
+        Erläuterung
+
+// REM ist das Keyword um Kommentare zu schreiben, so hab ich dem Programm den Namen gegeben.
+
+// CHR$(147) ist im grunde das Keyword für "clear"
+
+// POKE 211, count
+// Manipuliert den Systemspeicher wo die Adresse des Cursors gespeichert ist.
+
+// CHR$(19) ist "HOME" und bewegt den Cursor in die oberste Reihe 
+
+// POKE 198, 0:wait 198, 1
+// Wartet darauf, dass der Benutzer eine Taste drückt, bevor er fortfährt, damit die READY-Eingabeaufforderung am Ende keine Ausgabe überschreibt.
